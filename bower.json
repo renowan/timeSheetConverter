@@ -1,0 +1,23 @@
+{
+  "name": "timesheet",
+  "version": "0.0.1",
+  "dependencies": {
+    "sass-bootstrap": "~3.0.0",
+    "jquery": "~2.0.3",
+    "underscore": "~1.4.3",
+    "backbone": "~1.0.0",
+    "modernizr": "~2.6.2"
+  },
+  "authors": [
+    "Reno Wan <renowan@yahoo.co.jp>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
