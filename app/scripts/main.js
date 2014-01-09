@@ -141,12 +141,19 @@ $(function(){
 			var breakTimeStr = '';
 
 			for (var i = 0; i < json.length; i++) {
-				console.log(json[i].退社時刻);
+				// console.log(json[i].退社時刻);
 				var intime = json[i].出社時刻;
 				var outtime = json[i].退社時刻;
-				inTimeStr += inTimeChanger(intime) + "\r\n";
-				outTimeStr += outTimeChanger(outtime) + "\r\n";
-				breakTimeStr += getBreakTime(json[i]) + "\r\n";
+				inTimeStr += inTimeChanger(intime);
+				outTimeStr += outTimeChanger(outtime);
+				breakTimeStr += getBreakTime(json[i]);
+
+
+				if( i != json.length-1 ){
+					inTimeStr +=  "\r\n";
+					outTimeStr += "\r\n";
+					breakTimeStr += "\r\n";
+				}
 			};
 
 			$('#inhour').val(inTimeStr);
