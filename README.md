@@ -2,7 +2,8 @@
 
 
 サイボウズでタイムシートを管理する人向けです。  
-サイボウズとかで吐き出したタイムシートのCSVを15単位に丸めてくれるコンバーター。
+サイボウズとかで吐き出したタイムシートのCSVを15単位に丸めてくれるコンバーター。  
+Demo Page: <http://gallery.renowan.com/archive/timeSheetConverter/index.html>
 
 ##使い方
 * サイボウズでタイムシートをCSVで吐き出す。
@@ -17,4 +18,5 @@ out timeは退社時刻、19:35退社なら19:45に丸めてくれます（15分
 
 #### MIT License
 
-Copyright &copy; 2014 Renowan &lt;renowan@renowan.com&gt;
+Copyright &copy; 2014 Renowan &lt;renowan@renowan.com&gt;  
+
